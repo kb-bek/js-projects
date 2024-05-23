@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.according {
+    width: 450px;
+}
+
+.according-item {
+    margin-bottom: 15px;
+}
+
+.according-title {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color: rgba(165, 212, 253, 0.774)
+}
+
+.icon {
+    display: block;
+    width: 16px;
+    position: absolute;
+    top:5px;
+    right: 15px;
+}
+
+.icon img {
+    width: 100%;
+}
+
+
+
+.according-content {
+    display: none;
+    padding: 10px;
+    background-color: rgba(67, 163, 247, 0.767);
+    border-radius: 7px;
+}
+
+.according-item.active .according-content {
+    display: block;
+}
+
+.according-item.active .icon {
+    transform: rotate(180deg);
+    top: 0;
+    
+}
+
+
