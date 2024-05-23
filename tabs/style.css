@@ -1,0 +1,31 @@
+body {
+    background-color: lightgray;
+}
+
+.tab {
+    width: 500px;
+}
+
+.tablink{
+    border: none;
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    transition: background 0.3s;
+}
+
+.tablink.active {
+    background-color: green;
+}
+
+.tablink:hover {
+    background: rgb(179, 0, 0);
+}
+
+.tabcontent {
+    display: none;
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+} 
+
