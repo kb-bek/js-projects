@@ -1,0 +1,22 @@
+.box {
+    background-color: cadetblue;
+    width: 600px;
+    height: 2000px;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+#scroll-to-top {
+    display: none;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    background-color: purple;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
